@@ -1,4 +1,4 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
@@ -6,7 +6,6 @@ module.exports = defineConfig({
     chromeWebSecurity: false,
     numTestsKeptInMemory: 1,
     experimentalMemoryManagement: true,
-    projectId: "izbir5",
-    
+    projectId: "lzb1rS",
   },
 })
