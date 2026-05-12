@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --browser chrome",
+    "test:ci": "cypress run --browser chrome --config-file cypress.config.ci.js"
   },
   "keywords": [],
   "author": "",
